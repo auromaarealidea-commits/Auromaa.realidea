@@ -4,23 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Auromaa Fire Fighting Equipment</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background-color: #ff3b00; color: white; padding: 20px; text-align: center; }
+        .hero { background-image: url('hero.jpg'); height: 400px; background-size: cover; color: white; display: flex; justify-content: center; align-items: center; }
+        .section { padding: 20px; }
+        footer { text-align: center; background-color: #333; color: white; padding: 10px 0; position: relative; bottom: 0; width: 100%; }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to Auromaa Fire Fighting Equipment</h1>
+        <h1>Auromaa Fire Fighting Equipment</h1>
     </header>
-    <main>
-        <section>
-            <h2>Our Products</h2>
-            <p>We offer a wide range of fire fighting equipment including fire extinguishers, hoses, and personal protective gear.</p>
-        </section>
-        <section>
-            <h2>Contact Us</h2>
-            <p>Email: contact@auromaa.com</p>
-        </section>
-    </main>
+    <div class="hero">
+        <h2>Protecting Lives with Quality Equipment</h2>
+    </div>
+    <div class="section" id="mission">
+        <h2>Our Mission</h2>
+        <p>To provide the best firefighting equipment available.</p>
+    </div>
+    <div class="section" id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Fire Extinguishers</li>
+            <li>Fire Trucks</li>
+            <li>Safety Equipment</li>
+        </ul>
+    </div>
+    <div class="section" id="clients">
+        <h2>Our Clients</h2>
+        <p>We serve a variety of industries, including:</p>
+        <ul>
+            <li>Manufacturing</li>
+            <li>Construction</li>
+            <li>Commercial Enterprises</li>
+        </ul>
+    </div>
+    <div class="section" id="suppliers">
+        <h2>Our Suppliers</h2>
+        <p>Working with top suppliers to deliver quality products.</p>
+    </div>
+    <div class="section" id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message"></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
     <footer>
-        <p>&copy; 2026 Auromaa Fire Fighting Equipment</p>
+        <p>© 2026 Auromaa Fire Fighting Equipment. All rights reserved.</p>
     </footer>
 </body>
 </html>
